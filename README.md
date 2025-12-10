@@ -20,7 +20,7 @@ list-ов float-ов) и одно целое положительное числ
 PyObject *foreign_matrix_power(PyObject *self, PyObject *args)
 
 ```py
-import foreign
+...import foreign
 m = [[1.0, 2.0], [3.0, 4.0]]
 
 print(foreign.foreign_matrix_power(m, 3))
