@@ -43,7 +43,7 @@ static PyObject* matrix_power(PyObject* self, PyObject* args) {
         for (int j = 0; j < n; j++) {
             PyObject* item = PyList_GetItem(row, j);
             matrix[i][j] = PyFloat_AsDouble(item);
-            result[i][j] = (i == j) ? 1.0 : 0.0;  // Инициализируем единичную матрицу
+            result[i][j] = (i == j) ? 1.0 : 0.0;
         }
     }
     
